@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000;
+}
+
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#000;
+    text-transform: uppercase;
+}
+.logo{
+    width: 100px;
+}
+.link{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+.link::after{
+    color: #fff;
+}
+.section1{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_209c4e50a1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    
+    width: 100%;
+}
+.section1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 12rem;
+    color: #fff;
+}
+.section1 h2{
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: #fff;
+
+
+}
+.navbar{
+    position: sticky;
+}
+.logo{
+    width: 100px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border-style: 2pix solid #fff ;
+    color: #fff;
+}
+
+
+
+#pic1{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_209c4e50a1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+}
+
+#pic2{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/DESKTOP_HOMEPAGE_091c26421c.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+}
+#pic3{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+    
+}
+#pic4{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/S20_Chopstick_Stack_Desktop_0c016b49ec.webp");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+}
+#para1 {
+    padding-left: 4vw;
+    padding-top: 10vw;
+    color: #fff;
+    
+}
+#para2{
+    padding-left: 4vw;
+    padding-top: 26vw;
+    color: #fff;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background:transparent;
+    border-color: #fff;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    color: #000;
+    background:white;
+    border-color: #fff;
+    
+    
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+#foot{
+    display: flex;
+    flex-direction: row;
+}
+#foot p{
+    color: white;
+    padding-left: 10px;
+
+}
+#foot p{
+    color: white;
+    padding-left: 10px;
+
+}
+.footspace{
+    padding-left: 20px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    #para1 h2{
+      font-size: 20px;
+    }
+    #para1 h1{
+        font-size: 40px;
+    }
+    #para2 h2{
+        font-size: 20px;
+      }
+      #para2 h1{
+          font-size: 40px;
+      }
+  }
+
+
+@media screen and (max-width:991px) {
+    #para1 h2{
+      font-size: 15px;
+    }
+    #para1 h1{
+        font-size: 30px;
+    }
+    #para2 h2{
+        font-size: 15px;
+      }
+      #para2 h1{
+          font-size: 30px;
+      }
+    #boot p{
+        font-size: 5px;
+
+    }
+
+
+    }
+
+  @media screen and (max-width: 768px) {
+    #para1 h2{
+      font-size: 10px;
+      padding-top: 15vw;
+      
+    }
+    
+    #para1 h1{
+        font-size: 20px;
+        
+    }
+    #para2 h2{
+        font-size: 10px;
+      }
+      #para2 h1{
+          font-size: 20px;
+      }
+  }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
